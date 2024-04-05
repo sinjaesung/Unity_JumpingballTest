@@ -19,6 +19,8 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+        //github 파일변경 테스트
+
         //마지막 플레이에서 획득했던 점수 불러오기
         int score = PlayerPrefs.GetInt("LastScore");
         textScore.text = score.ToString();
